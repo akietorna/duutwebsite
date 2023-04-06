@@ -6,25 +6,25 @@ export const galleryMenuItems = [
     {
         title:'All',
         id:'all',
-        link:'#',
+        link:'/all',
         icon: <SiVlcmediaplayer />
     },
     {
         title:'Photo',
         id:'photo',
-        link:'#',
+        link:'/photo',
         icon: <GoFileMedia />
     },
     {
         title:'Video',
         id:'video',
-        link:'#',
+        link:'/video',
         icon: <BiMoviePlay />
     },
     {
         title:'Design',
         id:'design',
-        link:'#',
+        link:'/design',
         icon: <SiAdobephotoshop />
     }
 ]

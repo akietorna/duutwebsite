@@ -1,14 +1,14 @@
 import React from 'react'
-import { galleryMenuItems } from './galleryDropdownMenuItems'
+import { servicesDropdownItems } from './servicesDropdownItems'
 import './dropdown.css'
 
-function GalleryDropdown() {
+function ServicesDropdown() {
   return (
     <div>
         <ul className='dropdown'>
         {
-            galleryMenuItems.map((item) =>(
-                <li className='nav-item' key={item.id}>
+            servicesDropdownItems.map((item,index) =>(
+                <li className='nav-item' key={index}>
                   <a href={item.link}>
                   <i className='nav-icon'> {item.icon} </i>
                   {item.title}
@@ -17,9 +17,8 @@ function GalleryDropdown() {
             ))
         }
         </ul>
-        
     </div>
   )
 }
 
-export default GalleryDropdown
+export default ServicesDropdown

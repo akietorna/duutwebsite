@@ -1,0 +1,8 @@
+.more-or-less{
+    color: yellow;
+}
+
+.more-or-less:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

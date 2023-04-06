@@ -4,21 +4,21 @@ import { BiMoviePlay } from 'react-icons/bi'
 
 export const servicesDropdownItems = [
     {
-        title:'Photo',
+        title:'Photography',
         id:'navItem',
-        link:'#',
+        link:'/photo',
         icon: <GoFileMedia />
     },
     {
-        title:'Video',
+        title:'Videography',
         id:'navItem',
-        link:'#',
+        link:'/video',
         icon: <BiMoviePlay />
     },
     {
         title:'Design',
         id:'navItem',
-        link:'#',
+        link:'/design',
         icon: <SiAdobephotoshop />
     }
 
